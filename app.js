@@ -4,7 +4,7 @@ const MongoClient = require("mongodb").MongoClient
 const app = express()
 const url = "mongodb://localhost:27017/agaramdb"
 
-const port = 3000
+const PORT = process.env.PORT || 3000;
 const path = require("path")
 
 const bodyParser = require("body-parser")
@@ -12,7 +12,7 @@ const session = require("express-session")
 
 // var session = null
 
-app.listen(port,(err) =>{
+app.listen(PORT,() =>{
     if(err)
     throw err;
     else
