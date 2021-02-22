@@ -16,7 +16,7 @@ app.listen(PORT,() =>{
     if(err)
     throw err;
     else
-    console.log("Server is running at: " + port)
+    console.log("Server is running at: " + PORT)
 })
 
 app.use((req, res, next) => {
