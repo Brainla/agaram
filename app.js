@@ -2,7 +2,7 @@ const express = require("express")
 const MongoClient = require("mongodb").MongoClient
 
 const app = express()
-const url = "mongodb+srv://agaram:e1d6yY6bAxsF4m7t@cluster0.t8joo.mongodb.net/agaram?retryWrites=true&w=majority"
+const url = "mongodb+srv://agaram:dsRFLiGV3nFcUeVW@cluster0.6p5lx.mongodb.net/agaram?retryWrites=true&w=majority"
 
 const PORT = process.env.PORT || 3000;
 const path = require("path")
